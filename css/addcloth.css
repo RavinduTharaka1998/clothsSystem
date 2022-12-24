@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.top {
+    background: rgb(207, 91, 70);
+    align-items: center;
+}
+.top p {
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.top-middle {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+
+.top-middle .top-middle-left a {
+    text-decoration: none;
+}
+
+.top-middle .top-middle-left {
+    display: flex;
+    gap: 100px;
+}
+
+.top-middle .top-middle-left h2 {
+    color: rgb(116, 113, 113);
+}
+
+.top-middle .top-middle-left input[type=text] {
+    width: 600px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.top-middle .top-middle-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.top-middle .top-middle-right a {
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 2px 10px;
+    color: black;
+}
+
+.top-middle .top-middle-right a:hover {
+    color: rgb(207, 91, 70);
+}
+
+.top-middle .profile .profile-details {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.top-middle .profile .profile-details img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.top-middle .profile .profile-details a {
+    text-decoration: none;
+
+}
+
+.top-bottom {
+    background: rgb(207, 91, 70);
+    align-items: center;
+    margin-top: 10px;
+}
+.top-bottom p {
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.bottom-cloths {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.bottom-cloths .cloth img{
+    width: 250px;
+    height: 250px;
+}
+
+
+.footer-top {
+    text-align: center;
+}
+
+.footer-top h5 {
+    margin-top: 30px;
+    color: rgb(138, 39, 145);
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-bottom {
+  background-color: rgb(212, 212, 212);
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-bottom h4 {
+    font-weight: bold;
+}
+
+.tittle-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+ .tittle-3 h2 {
+    color: rgb(111, 108, 108);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rows {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+}
+
+.rows .c-left {
+    width: 300px;
+}
+
+.rows .c-left p {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.rows .c-left h6 {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(207, 91, 70);
+}
+
+.rows .colum img{
+    display: block;
+    margin: 0 auto;
+}
+
+.rows .colum h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(56, 56, 56);
+}
+
+
+.add {
+    margin-top: 20px;
+    background-color: rgb(228, 228, 228);
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.add .frm h3 {
+    text-align: center;
+}
+
+.add .frm {
+    width: 400px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.add .frm .signup button {
+    border-radius: 20px;
+    border: solid rgb(207, 91, 70);
+    padding: 3px 160px;
+}
+
+.add .frm .signup button:hover {
+    background:  rgb(207, 91, 70);
+    color: white;
+}
+
+.add .frm .social-media button {
+    color:  rgb(207, 91, 70);
+}
+
+.add .frm .social-media button:hover {
+    color:  rgb(215, 32, 0);
+    border-radius: 50%;
+    border: solid rgb(215, 32, 0);
+}
+
+.add .frm a {
+    text-decoration: none !important;
+    color: rgb(207, 91, 70);
+}
